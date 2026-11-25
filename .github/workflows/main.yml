@@ -16,3 +16,6 @@ jobs:
 
     - name: Run a test command
       run: echo "CI запущен! Все проверки пройдены."
+
+    - name: Show documentation
+      run: cat README.md
